@@ -34,6 +34,9 @@ git config --global user.email
 ## Deschiderea editorului Visual Studio Code ca editor default pentru git
 git config --global core.editor "code --wait"
 
+##Denumirea branch-ului initial main
+git config --global init.defaultBranch main
+
 ### Comenzi de creare a commitului
 git commit -m " Acesta este un mesaj descriptiv al commitului "
 git commit --message " Acesta este un mesaj descriptiv al commitului "
@@ -43,4 +46,19 @@ git commit -am " Acesta este un mesaj descriptiv "
 
 ## Modificarea mesajului ultimului  commit 
 git commit --amend
+
+## Pentru a pune codul pe server
+git push
+git push origin
+
+## Pentru a lua codul de pe server
+git pull
+git pull origin
+
+## Pentru lucru cu branch-ului
+# Listarea tuturor branch-urilor
+git granch
+
+## Redenumirea branch-ului curent in ce este dupa -mailului
+git branch -m main
 
