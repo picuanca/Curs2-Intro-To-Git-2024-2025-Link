@@ -31,6 +31,9 @@ git config --global user.email "emailul@tau.com"
 # Citirea e-mailului utilizatorului
 git config --global user.email
 
+## Deschiderea editorului Visual Studio Code ca editor default pentru git
+git config --global core.editor "code --wait"
+
 ### Comenzi de creare a commitului
 git commit -m " Acesta este un mesaj descriptiv al commitului "
 git commit --message " Acesta este un mesaj descriptiv al commitului "
