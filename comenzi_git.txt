@@ -12,3 +12,17 @@ git add filename
 git add .
 git add filename.*
 git add filename1 filename2 filename3
+
+## Setarea numelui global
+
+# Setarea numelui utilizatorului
+git config --global user.name "Numele tau..."
+# Citirea numelui utilizatorului
+git config --global user.nume
+
+# Setarea e-mailului utilizatorului
+git config --global user.email "emailul@tau.com"
+# Citirea e-mailului utilizatorului
+git config --global user.email
+
+
