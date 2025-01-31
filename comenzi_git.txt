@@ -3,3 +3,12 @@ git init
 
 ## Descarca de pe server un proiect de git
 git clone https://github.com/username/project
+
+## Arata lista de commituri
+
+
+### Comenzi de crearea a comitului
+git add filename
+git add .
+git add filename.*
+git add filename1 filename2 filename3
